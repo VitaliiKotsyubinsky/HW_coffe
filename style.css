@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Miso-Bold';
+    src: local('Miso-Bold'), url('https://nomail.com.ua/files/woff/b78843047ece07fc9a36dd16bbe70af7.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Miso-Light';
+    src: local('Miso-Light'), url('https://nomail.com.ua/files/woff/84cd0261f8e2e0a4347a465d21a9fdbe.woff') format('woff');
+}
+
+body {
+    padding: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapper {
+    margin: 0 auto;
+    background-color: #fdde7e;
+    width: 1200px;
+    height: 600px;
+}
+
+.capcard {
+    margin-top: 80px;
+    background-color: #fff;
+    width: 360px;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+
+.cards>:nth-child(2) {
+    height: 500px;
+    margin: 50px 0 0 0;
+}
+
+.bill {
+    margin-top: 35px;
+}
+
+.smoke {
+    margin-top: -10px;
+    margin-bottom: -20px;
+    margin-right: 10px;
+}
+
+.cap_1 {
+    margin-left: 10px;
+    width: 135px;
+    height: 77px;
+    background-image: url(/img/cup.png);
+}
+
+.cap_2 {
+    margin-left: 10px;
+    width: 135px;
+    height: 77px;
+    background-image: url(/img/cup_gold.png);
+}
+
+.cap_3 {
+    margin-left: 10px;
+    width: 135px;
+    height: 77px;
+    background-image: url(/img/cup_silver.png);
+}
+
+.cap_1 img {
+    margin: 17px 40px;
+}
+
+.cap_2 img {
+    margin: 17px 40px;
+}
+
+.cap_3 img {
+    margin: 17px 40px;
+}
+
+.about_bill {}
+
+.about_bill>h2 {
+    font-size: 50px;
+    margin-top: -5px;
+    text-align: center;
+    font-family: 'Miso-Bold';
+    color: #333333;
+}
+
+.about_bill>p {
+    text-align: center;
+    max-width: 152px;
+    font-size: 25px;
+    font-family: 'Miso-Light';
+}
