@@ -34,7 +34,7 @@ body {
     align-items: center;
     justify-content: center;
     justify-content: space-evenly;
-    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     border-radius: 3px;
 }
 
@@ -57,21 +57,21 @@ body {
     margin-left: 10px;
     width: 135px;
     height: 77px;
-    background-image: url(/img/cup.png);
+    background-image: url(img/cup.png);
 }
 
 .cap_2 {
     margin-left: 10px;
     width: 135px;
     height: 77px;
-    background-image: url(/img/cup_gold.png);
+    background-image: url(img/cup_gold.png);
 }
 
 .cap_3 {
     margin-left: 10px;
     width: 135px;
     height: 77px;
-    background-image: url(/img/cup_silver.png);
+    background-image: url(img/cup_silver.png);
 }
 
 .cap_1 img {
